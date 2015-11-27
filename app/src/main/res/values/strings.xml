@@ -1,3 +1,7 @@
 <resources>
+
 	<string name="app_name">Nfc Provisioning</string>
+	<string name="nfc_comment">NFC provisioning sample</string>
+	<string name="bring_together_msg">Bring this and target devices together</string>
+
 </resources>
