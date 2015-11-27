@@ -53,11 +53,11 @@ public class MainActivity extends AppCompatActivity {
 			// cat Something.apk | openssl dgst -binary -sha1 | openssl base64 | tr '+/' '-_' | tr -d '='
 			properties.put(
 					DevicePolicyManager.EXTRA_PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM,
-					"i5LG2lOUBZa46T3lk54Uk_1G4EU"
+					"[Device owner app checksum]"
 			);
 			properties.put(
 					DevicePolicyManager.EXTRA_PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION,
-					"http://igor-lapin.ru/do.apk"
+					"[Device owner app URL]"
 			);
 
 			try {
